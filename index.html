@@ -9,8 +9,13 @@
       
       </head>
        <body>
+         <div id="social">
+           <a href="#">Facebook</a>
+           <a href="#">Google Plus</a>
+         </div>
              <!-- the header of page -->
              <header>
+               <div class="wrapper clearfix">
                 <div class="logo">
               <h1>Exceptional</h1>
               <h2>Realty Group</h2>
@@ -24,10 +29,12 @@
               <a href="http://hud.gov" target="_blank">H.U.D</a>
               <h3>New_Properties</h3>
               </nav>
+            </div> 
+            <!-- wrapper -->
          </header>
              
-                
-            <section id="featured-property">
+                <div class="wrapper clearfix">
+            <section id="featured-property" class="col-3 first">
                                     <figure>
                                       <img src="images/intro-pic (1).jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
                                       <figcaption>345 Carl Street Apt 12, Carrol Rd. Brooklyn, NY - photo by Denise Richards</figcaption>
@@ -48,7 +55,7 @@
                     
                 <!-- added vedios -->
 
-                <section id="promotional">
+                <section id="promotional" class="col-2 first">
                         <figure>
                           <video controls>
                             <source src="videos/real-estate.mp4" type="video/mp4">
@@ -59,8 +66,18 @@
                         </figure>
                 </section>
 
+                <section id="news" class="col-1">
+                  <h3>Company News</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, ipsum. Dolorem numquam, deserunt cupiditate 
+                    est fugit distinctio explicabo in atque expedita fugiat quibusdam modi ut dicta porro delectus iste libero.</p>
+                </section> 
+              </div>
+
+              <!--  wrapper    -->
+
                   <section id="details">
-                        <div>
+                    <div class="wrapper">
+                         <div class="col-1 first">
                               <h3>Contact</h3>
                               <p>
                                     email: <a href="milto:info@exceptionalrealty.com">info@exceptionalrealty.com </a>
@@ -75,20 +92,21 @@
                                     Brooklyn, NY 11201
                               </address>
                         </div>
-                         <div>
+                         <div class="col-1">
                               <h3>links</h3>
 
                               <a href="#" target="_blank">Home Restoration</a><br>
                               <a href="#" target="_blank"> Afordable Mortgages</a><br>
                               <a href="#" target="_blank">Professioal</a>
                           </div>
-                          <div>
+                          <div class="col-1">
                                 <h3>Follow</h3>
                                     <a href="#" target="_blank">Youtube </a>
                                     <a href="#" target="_blank">Facebook</a>
                                     <a href="#" target="_blank">Instagram</a>
                           </div>
-                  </section>
+                          </div> 
+                    </section>
 
                             <footer>
                               &copy; 2019 Exceptional Realty Group. All Rights Reserved.
