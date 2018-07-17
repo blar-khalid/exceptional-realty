@@ -19,6 +19,8 @@ header{
     top: 0;
     width: 100%;
 }
+
+
 .logo h1 {
     font-family: 'Clicker script',cursive;
    text-shadow: 0 2px 3px #001;}
@@ -53,6 +55,18 @@ width: 950px;
 .col-2{
 width: 66%;
 float: left;
+
+}
+.col-3 p{
+    -moz-column-rule: 1px dotted #ccc;
+    -webkit-column-rule: 1px dotted #ccc;
+    column-rule: 1px dotted #ccc;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    -moz-column-rule: 3;
+    -webkit-column-rule: 3;
+    column-rule: 3;
 
 }
 
@@ -91,6 +105,7 @@ section{
     z-index: 1;
 }
 #social{
+    size:200px;
     display: block;
     width: 40px;
     height: 40px;
@@ -105,6 +120,9 @@ box-shadow: 0 3px 10px #333;
 .white-wood {
     background: url(../images/kamer-interieur-vintage-retro-met-houten-muur-en-houten-vloer-perspectief-hout-textuur-achtergrond_1253-1563.jpg) no-repeat center top;
     background-size: cover;
+}
+nav i{
+   visibility: hidden;
 }
 .light{
     /* LIGHT-FADE */
@@ -157,7 +175,7 @@ background: linear-gradient(
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efefef", endColorstr="#dddddd", GradientType=0);
 }
 .medium {
-    
+    width: 100%;
  
 background: rgb(229, 229, 229); /* Old browsers */
 background: -moz-linear-gradient(
@@ -207,7 +225,7 @@ header{
 #navbar nav {
     border-left: 1px solid #ccc;
 }
-#navbar nav a{
+#navbar nav a {
   display: inline-block;
   width: 16.6666667%;
   margin: 0;
@@ -296,4 +314,15 @@ footer{
     padding: 10px;
     background: #ccc;
     border-top: 1px solid #ccc;
+}
+.test {
+flex-direction: column;
+
+}
+iframe
+{margin: auto;}
+nav i {
+background-color: #0f0;
+ width: 100%;
+
 }
